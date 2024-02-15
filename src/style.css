@@ -51,8 +51,8 @@ section {
   .show {
 	opacity: 1;
   }
-  .sec2-hidden {
-    background-image: url(/src/img/donnant-conseils-groupe-jeunes-vetements-decontractes-travaillant-dans-bureau-moderne.jpg);
+  .sec2 {
+    background-image: url(/STtudTech_tp/src/img/donnant-conseils-groupe-jeunes-vetements-decontractes-travaillant-dans-bureau-moderne.jpg);
     background-size: cover;
   }
   .aprop {
