@@ -63,7 +63,8 @@ section {
     font-size: 1.5rem;
   }
   .section-title {
-    margin: 30px;
+    padding-top: 20px;
+    margin: 60px;
   }
   .image-item {
     margin: 15px;
@@ -135,9 +136,47 @@ section {
     border-top: 1px solid #444;
     padding-top: 20px;
   }
-  .image-section-blog {
-    padding-top: 200px;
+  .BlogImage {
+    background-image: url(/STtudTech_tp/src/img/DALL·E\ 2024-02-15\ 14.23.34\ -\ A\ futuristic\ classroom\ scene\ filled\ with\ technology\,\ showcasing\ students\ engaging\ with\ interactive\ digital\ blackboards\ and\ virtual\ reality\ headsets.\ D.webp);
   }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.contactUS {
+  padding-top: 150px;
+  padding-bottom: 110px;
+}
+.contaiCON {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #0056b3;
+}
+textarea {
+    height: 150px;
+}
   @media (max-width: 600px) {
     .footer-content {
       flex-direction: column;
